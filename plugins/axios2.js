@@ -12,8 +12,8 @@ const env = process.env.NODE_ENV || 'development'
 console.log('env==============', env)
  
 let baseUrl = {
-  development: 'http://127.0.0.1:5555',
-  production: 'http://127.0.0.1:5555'
+  development: 'http://127.0.0.1:5000',
+  production: 'http://127.0.0.1:5000'
 }
 
 let options = {
